@@ -1,0 +1,44 @@
+.searchBarContainer {
+  margin: auto;
+  background-color: #1f2a48;
+  outline: none;
+  border-style: none;
+  border-radius: 0.5rem;
+  /*width: 25vw;*/
+  width: 40rem;
+  padding: 0.5rem;
+}
+
+.searchBar {
+  background-color: #1f2a48;
+  padding: 0.5rem;
+  outline: none;
+  border-style: none;
+  align-self: center;
+  font-family: monospace;
+  color: white;
+  width: 32rem;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox karna katanya Firefox adds a lower opacity to the placeholder*/
+}
+
+#lupe {
+  height: 20px;
+  width: 20px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.searchButton {
+  justify-content: end;
+  background-color: #0079fe;
+  border-style: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-family: monospace;
+  color: white;
+}
