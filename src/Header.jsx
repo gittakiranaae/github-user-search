@@ -1,19 +1,18 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./Header.css";
+import "./index.css";
 
 function Header() {
   // const [count, setCount] = useState(0);
   return (
     <>
-      <div className="headerContainer">
+      <div className="header-container">
         <ul>
-          <li id="devfinder">devfinder</li>
+          <li id="dev-finder">devfinder</li>
           <li id="light-sun">
-            <div className="ligtSunCOntainer">
+            <div className="ligt-sun-cOntainer">
               LIGHT
               <img
-                id="whiteSun"
+                id="white-sun"
                 src="https://vectorified.com/images/white-sun-icon-34.png"
               ></img>
             </div>

@@ -1,21 +1,20 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./SearchBar.css";
+import "./index.css";
 
 function SearchBar() {
   const [searchName, setSearchName] = useState("");
   return (
     <>
-      <div className="searchBarContainer">
+      <div className="search-bar-container">
         <img id="lupe" src="src\images\lupe.png"></img>
         <input
-          className="searchBar"
+          className="search-bar"
           type="text"
           placeholder="Search GitHub username..."
           value={searchName}
           onChange={(e) => setSearchName(e.target.value)}
         ></input>
-        <button className="searchButton">Search</button>
+        <button className="search-button">Search</button>
       </div>
     </>
   );
