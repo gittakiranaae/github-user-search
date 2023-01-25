@@ -100,7 +100,7 @@ li {
   background-color: #1f2a48;
   outline: none;
   border-style: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 2rem;
 }
 
@@ -123,10 +123,10 @@ img {
   display: flex;
 }
 
-/* Create two equal columns that sits next to each other */
+/* Create two columns that sits next to each other */
 .column {
-  flex: 30% 70%;
-  padding: 10px;
+  flex: 30% 70%; /*how to remove 3rd column?*/
+  padding: 0px 25px 0px 0px;
   display: inline-block;
 }
 
@@ -143,6 +143,12 @@ p {
   margin: 8px 0px;
 }
 
+.bio-desc {
+  padding: 1rem 0rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+
 .bio-numbers {
   display: grid;
   place-items: center;
@@ -153,8 +159,4 @@ p {
   border-style: none;
   border-radius: 1rem;
   margin-top: 1rem;
-}
-
-.number {
-  align-self: center;
 }

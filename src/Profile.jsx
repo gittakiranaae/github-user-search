@@ -20,7 +20,11 @@ function Profile() {
           </div>
           <div></div>
         </div>
-        <div className="bio-desc"></div>
+        <div className="bio-desc">
+          Lorem ipsum dolor sit amet.
+          <br /> consectetur adipisicing elit. Placeat nesciunt deserunt
+          repellendus mollitia.
+        </div>
         <div className="bio-numbers">
           {Object.keys(numbers).map((number) => (
             <div className="number">
