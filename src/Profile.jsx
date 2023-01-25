@@ -30,11 +30,35 @@ function Profile() {
             <div className="number">
               {number}
               <br />
-              {numbers[number]}
+              <p className="number">{numbers[number]} </p>
             </div>
           ))}
         </div>
-        <div className="more-info"></div>
+        <div className="more-info">
+          <div>
+            <img
+              className="icon"
+              src="https://vectorified.com/images/white-sun-icon-34.png"
+            ></img>
+            San Fransisco
+          </div>
+          <div>
+            <img
+              className="icon"
+              src="https://vectorified.com/images/white-sun-icon-34.png"
+            ></img>
+            <a href="https://heretoshare.id/" target="_blank">
+              https://heretoshare.id/
+            </a>
+          </div>
+          <div>
+            <img
+              className="icon"
+              src="https://vectorified.com/images/white-sun-icon-34.png"
+            ></img>
+            @gittagittu
+          </div>
+        </div>
       </div>
     </>
   );

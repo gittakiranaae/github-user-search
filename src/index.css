@@ -143,6 +143,10 @@ p {
   margin: 8px 0px;
 }
 
+p.number {
+  margin-bottom: 0px;
+}
+
 .bio-desc {
   padding: 1rem 0rem;
   line-height: 1.75rem;
@@ -159,4 +163,26 @@ p {
   border-style: none;
   border-radius: 1rem;
   margin-top: 1rem;
+  text-align: center;
+}
+
+.more-info {
+  display: grid;
+  place-content: start;
+}
+
+.icon {
+  max-height: 1rem;
+  max-width: 1rem;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
