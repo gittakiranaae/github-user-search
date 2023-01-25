@@ -14,7 +14,9 @@ function SearchBar() {
           value={searchName}
           onChange={(e) => setSearchName(e.target.value)}
         ></input>
-        <button className="search-button">Search</button>
+        <a href={`https://github.com/search?q=${searchName}&type=users`}>
+          <button className="search-button">Search</button>
+        </a>
       </div>
     </>
   );
