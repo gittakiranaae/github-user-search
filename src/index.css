@@ -58,7 +58,7 @@ li {
   background-color: #1f2a48;
   outline: none;
   border-style: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   padding: 0.5rem;
   margin-top: 2rem;
 }
@@ -88,11 +88,11 @@ li {
 .search-button {
   background-color: #0079fe;
   border-style: none;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   font-family: monospace;
   color: white;
   font-size: 14px;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .profile-container {
@@ -141,4 +141,20 @@ img {
 
 p {
   margin: 8px 0px;
+}
+
+.bio-numbers {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto auto auto;
+  background-color: #141c2f;
+  padding: 2rem;
+  outline: none;
+  border-style: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.number {
+  align-self: center;
 }
