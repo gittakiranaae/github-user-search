@@ -1,6 +1,7 @@
 :root {
   background-color: #141c2f;
   font-family: monospace;
+  color: white;
 }
 
 .app-container {
@@ -21,6 +22,8 @@
 #dev-finder {
   color: white;
   float: left;
+  font-size: 25px;
+  font-family: "Trebuchet MS" s;
 }
 
 #light-sun {
@@ -57,6 +60,7 @@ li {
   border-style: none;
   border-radius: 0.5rem;
   padding: 0.5rem;
+  margin-top: 2rem;
 }
 
 .search-bar {
@@ -67,7 +71,6 @@ li {
   align-self: center;
   font-family: monospace;
   font-size: 14px;
-  color: white;
   width: 210px; /* perlu diperbaiki */
 }
 
@@ -86,7 +89,6 @@ li {
   background-color: #0079fe;
   border-style: none;
   border-radius: 0.5rem;
-  padding: 0.5rem;
   font-family: monospace;
   color: white;
   font-size: 14px;
@@ -115,4 +117,28 @@ img {
   margin: 0 auto;
   height: 100%;
   width: auto;
+}
+
+.bio-header {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 30% 70%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.username {
+  color: #0079fe;
+}
+
+p {
+  margin: 8px 0px;
 }
